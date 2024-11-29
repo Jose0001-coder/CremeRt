@@ -154,16 +154,6 @@ align-items: flex-start;
 	margin: 0 0.5em;
 	}
 }
-main {
-    background-color: #fceab8; 
-    min-height: 100vh; 
-    display: flex;
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-    padding: 20px;
-}
-
 .social-links {
     display: flex;
     justify-content: center;
