@@ -217,4 +217,176 @@ main h2 {
     }
 }
 
+/* Imagen ajustable para pantallas más pequeñas */
+.receta .imagen img {
+    width: 100%;
+    max-width: 1000px; /* Límite máximo para pantallas grandes */
+    height: auto; /* Mantiene la proporción */
+}
+
+/* Ajuste de texto */
+.receta .contenido h2, 
+.receta .contenido h3 {
+    font-size: 1.5em; /* Escalado proporcional */
+    text-align: center; /* Centrar texto en pantallas pequeñas */
+}
+
+/* Márgenes ajustados */
+.receta .contenido ul,
+.receta .contenido ol {
+    margin-left: 1em; /* Espacio reducido en pantallas pequeñas */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .receta {
+        display: flex;
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center;
+    }
+
+    .receta .imagen {
+        order: -1; /* Asegura que la imagen quede arriba */
+        width: 100%; /* Imagen ocupa todo el ancho */
+    }
+
+    .receta .contenido {
+        padding: 1em; /* Reduce espacio interno */
+        text-align: center; /* Centrar el contenido */
+    }
+
+    .receta .contenido ul,
+    .receta .contenido ol {
+        margin-left: 0.5em; /* Reduce espacio para listas */
+    }
+}
+
+@media (max-width: 480px) {
+    .receta .contenido {
+        font-size: 0.9em; /* Reduce tamaño del texto */
+    }
+    
+    .receta .contenido h2 {
+        font-size: 1.2em;
+    }
+    
+    .receta .contenido h3 {
+        font-size: 1em;
+    }
+}
+
+/* Imagen ajustable para pantallas más pequeñas */
+.receta .imagen img {
+    width: 100%;
+    max-width: 1000px; /* Límite máximo para pantallas grandes */
+    height: auto; /* Mantiene la proporción */
+}
+
+/* Ajuste de texto */
+.receta .contenido h2, 
+.receta .contenido h3 {
+    font-size: 1.5em; /* Escalado proporcional */
+    text-align: center; /* Centrar texto en pantallas pequeñas */
+}
+
+/* Márgenes ajustados */
+.receta .contenido ul,
+.receta .contenido ol {
+    margin-left: 1em; /* Espacio reducido en pantallas pequeñas */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .receta {
+        display: flex;
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center;
+    }
+
+    .receta .imagen {
+        order: -1; /* Asegura que la imagen quede arriba */
+        width: 100%; /* Imagen ocupa todo el ancho */
+    }
+
+    .receta .contenido {
+        padding: 1em; /* Reduce espacio interno */
+        text-align: center; /* Centrar el contenido */
+    }
+
+    .receta .contenido ul,
+    .receta .contenido ol {
+        margin-left: 0.5em; /* Reduce espacio para listas */
+    }
+}
+
+@media (max-width: 480px) {
+    .receta .contenido {
+        font-size: 0.9em; /* Reduce tamaño del texto */
+    }
+    
+    .receta .contenido h2 {
+        font-size: 1.2em;
+    }
+    
+    .receta .contenido h3 {
+        font-size: 1em;
+    }
+}
+
+.receta .imagen img {
+    width: 100%;
+    max-width: 500px; /* Límite máximo para pantallas grandes */
+    height: auto; /* Mantiene la proporción */
+}
+
+/* Ajuste de texto */
+.receta .contenido h2, 
+.receta .contenido h3 {
+    font-size: 1.5em; /* Escalado proporcional */
+    text-align: center; /* Centrar texto en pantallas pequeñas */
+}
+
+/* Márgenes ajustados */
+.receta .contenido ul,
+.receta .contenido ol {
+    margin-left: 1em; /* Espacio reducido en pantallas pequeñas */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .receta {
+        display: flex;
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center;
+    }
+
+    .receta .imagen {
+        order: -1; /* Asegura que la imagen quede arriba */
+        width: 100%; /* Imagen ocupa todo el ancho */
+    }
+
+    .receta .contenido {
+        padding: 1em; /* Reduce espacio interno */
+        text-align: center; /* Centrar el contenido */
+    }
+
+    .receta .contenido ul,
+    .receta .contenido ol {
+        margin-left: 0.5em; /* Reduce espacio para listas */
+    }
+}
+
+@media (max-width: 480px) {
+    .receta .contenido {
+        font-size: 0.9em; /* Reduce tamaño del texto */
+    }
+    
+    .receta .contenido h2 {
+        font-size: 1.2em;
+    }
+    
+    .receta .contenido h3 {
+        font-size: 1em;
+    }
+}
 
