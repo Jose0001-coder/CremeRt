@@ -335,7 +335,7 @@ main h2 {
 
 .receta .imagen img {
     width: 100%;
-    max-width: 500px; /* Límite máximo para pantallas grandes */
+    max-width: 1000px; /* Límite máximo para pantallas grandes */
     height: auto; /* Mantiene la proporción */
 }
 
